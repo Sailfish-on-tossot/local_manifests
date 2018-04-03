@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="device/xiaomi/vince" name="Sailfish-On-Vince/device_xiaomi_vince" revision="cm-14.1" />
+	<project path="vendor/xiaomi/vince" name="Sailfish-On-Vince/vendor_xiaomi_vince" revision="cm-14.1" />
+	<project path="kernel/xiaomi/vince" name="Sailfish-On-Vince/kernel_xiaomi_msm8953" revision="lineage-15.1" />
+	<project path="hybris/droid-hal-version-vince" name="0312birdzhang/droid-hal-version-vince" revision="master" />
+	<project path="hybris/droid-config-vince" name="0312birdzhang/droid-config-vince" revision="master" />
+	<project path="rpm" name="0312birdzhang/droid-hal-vince" revision="master" />
+</manifest>
+
