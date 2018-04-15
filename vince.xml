@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/xiaomi/vince" name="Sailfish-On-Vince/device_xiaomi_vince" revision="cm-14.1" />
-	<project path="vendor/xiaomi/vince" name="Sailfish-On-Vince/vendor_xiaomi_vince" revision="cm-14.1" />
-	<project path="kernel/xiaomi/vince" name="Sailfish-On-Vince/kernel_xiaomi_msm8953" revision="cm-14.1" />
-	<project path="hybris/droid-hal-version-vince" name="Sailfish-On-Vince/droid-hal-version-vince" revision="master" />
-	<project path="hybris/droid-config-vince" name="Sailfish-On-Vince/droid-config-vince" revision="master" />
-	<project path="rpm" name="Sailfish-On-Vince/droid-hal-vince" revision="master" />
+  <project path="device/xiaomi/vince" name="Sailfish-On-Vince/device_xiaomi_vince" revision="master" />
+  <project path="vendor/xiaomi/vince" name="Sailfish-On-Vince/vendor_xiaomi_vince" revision="master" />
+  <project path="kernel/xiaomi/msm8953" name="Sailfish-On-Vince/kernel_xiaomi_msm8953" revision="master" />
+  <project path="hybris/droid-hal-version-vince" name="Sailfish-On-Vince/droid-hal-version-vince" revision="master" />
+  <project path="hybris/droid-configs" name="Sailfish-On-Vince/droid-config-vince" revision="master" />
+  <project path="hybris/hybris-boot" name="Sailfish-On-Vince/hybris-boot" revision="master" />
+  <project path="rpm" name="Sailfish-On-Vince/droid-hal-vince" revision="master" />
 </manifest>
-
