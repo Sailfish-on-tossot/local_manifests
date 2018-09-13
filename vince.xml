@@ -6,7 +6,7 @@
   <project path="hybris/droid-hal-version-vince" name="Sailfish-On-Vince/droid-hal-version-vince" revision="master" />
   <project path="hybris/droid-configs" name="Sailfish-On-Vince/droid-config-vince" revision="master" />
   
-  <remove-project name="hybris/hybris-boot" />
+  <remove-project name="mer-hybris/hybris-boot" />
   <project path="hybris/hybris-boot" name="Sailfish-On-Vince/hybris-boot" revision="master" />
   
   <project path="rpm" name="Sailfish-On-Vince/droid-hal-vince" revision="master" />
