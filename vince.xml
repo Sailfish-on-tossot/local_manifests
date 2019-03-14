@@ -6,13 +6,10 @@
   <project path="hybris/droid-hal-version-vince" name="Sailfish-On-Vince/droid-hal-version-vince" revision="master" />
   <project path="hybris/droid-configs" name="Sailfish-On-Vince/droid-config-vince" revision="master" />
   
-  <remove-project name="mer-hybris/hybris-boot" />
   <project path="hybris/hybris-boot" name="Sailfish-On-Vince/hybris-boot" revision="master" />
   
   <project path="rpm" name="Sailfish-On-Vince/droid-hal-vince" revision="master" />
   
-  <remove-project name="sailfishos/droidmedia" />
   <project path="external/droidmedia"  name="Sailfish-On-Vince/droidmedia" revision="master"/>
   
-  <project path="external/libxml2" name="LineageOS/android_external_libxml2" revision="cm-14.1" />
 </manifest>
