@@ -2,7 +2,7 @@
 <manifest>
   <project path="device/xiaomi/vince" name="Sailfish-On-Vince/device_xiaomi_vince" revision="hybris-15.1"/>
   <project path="vendor/xiaomi/vince" name="TingyiChen/vendor_xiaomi_vince" revision="lineage-15.1" />
-  <project path="kernel/xiaomi/msm8953" name="Sailfish-On-Vince/Xiaomi_Kernel_OpenSource" revision="hybris-15.1" />
+  <project path="kernel/xiaomi/msm8953" name="Sailfish-On-Vince/android_kernel_xiaomi_msm8953" revision="vince-oreo-mr1" />
   <project path="hybris/droid-hal-version-vince" name="Sailfish-On-Vince/droid-hal-version-vince" revision="master" />
   <project path="hybris/droid-configs" name="Sailfish-On-Vince/droid-config-vince" revision="hybris-15.1" />
   <remove-project name="mer-hybris/hybris-boot" />
@@ -12,5 +12,8 @@
   <remove-project name="sailfishos/droidmedia" /> 
   <project path="external/droidmedia"  name="Sailfish-On-Vince/droidmedia" revision="master"/>
   
+  <project name="sonyxperiadev/vendor-qcom-opensource-wlan-fw-api" path="kernel/xiaomi/msm8953/drivers/staging/wlan-qc/fw-api"  revision="fe41c8d61e096501b8de937dac684008d667b8a7" upstream="aosp/LA.UM.7.3.r1"/>
+  <project name="sonyxperiadev/vendor-qcom-opensource-wlan-qca-wifi-host-cmn" path="kernel/xiaomi/msm8953/drivers/staging/wlan-qc/qca-wifi-host-cmn" revision="8becfc0299c98d8d509de53773e732714ec16148" upstream="aosp/LA.UM.7.3.r1"/>
+  <project name="sonyxperiadev/vendor-qcom-opensource-wlan-qcacld-3.0" path="kernel/xiaomi/msm8953/drivers/staging/wlan-qc/qcacld-3.0" revision="8dcf1fbf8bbfadbe6fbad47f9b9389f41221477d" upstream="aosp/LA.UM.7.3.r1"/>
 </manifest>
 
