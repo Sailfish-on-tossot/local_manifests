@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/xiaomi/tissot" name="Sailfish-On-tossot/device_xiaomi_tissot" revision="cm-14.1" />
-  <project path="vendor/xiaomi/tissot" name="Sailfish-On-tossot/vendor_xiaomi_tissot" revision="cm-14.1" />
-  <project path="kernel/xiaomi/msm8953" name="Sailfish-On-tossot/Xiaomi_Kernel_OpenSource" revision="tissot-n-oss" clone-depth="1"/>
+  <project path="device/xiaomi/tissot" name="Sailfish-On-tossot/device_xiaomi_tissot" revision="lineage-15.0" />
+  <project path="vendor/xiaomi/tissot" name="Sailfish-On-tossot/vendor_xiaomi_tissot" revision="lineage-15.1" />
+  <project path="kernel/xiaomi/msm8953" name="Sailfish-On-tossot/Xiaomi_Kernel_OpenSource" revision="tissot-o-oss" clone-depth="1"/>
   <project path="hybris/droid-hal-version-tissot" name="Sailfish-On-tossot/droid-hal-version-tissot" revision="master" />
   <project path="hybris/droid-configs" name="Sailfish-On-tossot/droid-config-tissot" revision="master" />
   
@@ -12,4 +12,5 @@
   
   <project path="external/droidmedia"  name="Sailfish-On-tossot/droidmedia" revision="master"/>
   
+  <project path="external/libhybris" name="libhybris/libhybris" revision="master" />
 </manifest>
